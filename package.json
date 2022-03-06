@@ -1,0 +1,19 @@
+{
+  "name": "dsm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NarutSH/dsmWeb.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NarutSH/dsmWeb/issues"
+  },
+  "homepage": "https://github.com/NarutSH/dsmWeb#readme"
+}
