@@ -1,0 +1,66 @@
+* {
+  font-family: Prompt;
+  font-size: 18px;
+}
+
+.title-header {
+  background-color: #a9d6ff;
+  padding: 5px;
+  padding-left: 30px;
+}
+
+.table--header {
+  background-color: #5082b7;
+  color: white;
+}
+
+.table-striped > tbody > tr:nth-of-type(even) > * {
+  --bs-table-accent-bg: #dce6f0;
+}
+.table-striped > tbody > tr:nth-of-type(odd) > * {
+  --bs-table-accent-bg: white;
+}
+
+.page-link {
+  border: none;
+  color: black;
+}
+
+.badge--success {
+  background-color: #42c656;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+.badge--unsuccess {
+  background-color: #fc682e;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+.btn--submit {
+  background-color: #5082b7;
+  color: white;
+}
+.btn--cancel {
+  background-color: #df3d28;
+  color: white;
+}
+
+li.page-item.active > .page-link {
+  background: none;
+  color: black;
+  border: 1px solid black;
+}
+
+#input-file {
+  display: none;
+}
+
+.label-upload {
+  background-color: #5082b7;
+  color: white;
+  display: inline-block;
+  padding: 6px 12px;
+  cursor: pointer;
+  border-radius: 5px;
+}

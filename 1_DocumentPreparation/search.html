@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="../index.css" />
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>1.2 Search</title>
+  </head>
+  <body>
+    <div class="container-lg">
+      <div class="mt-2">เตรียมเอกสาร</div>
+      <div class="my-3 border p-3">
+        <div class="title-header">ค้นหา</div>
+        <div class="row align-items-center my-2">
+          <div class="col-3 text-end">ผู้บันทึก :</div>
+          <div class="col-9">
+            <select class="form-select" aria-label="select-option">
+              <option selected disabled>Please select</option>
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+            </select>
+          </div>
+        </div>
+        <div class="row align-items-center my-2">
+          <div class="col-3 text-end">วันที่บันทึก :</div>
+          <div class="col-3">
+            <input type="date" class="form-control" />
+          </div>
+          <div class="col-3 text-end">สิ้นสุด :</div>
+          <div class="col-3">
+            <input type="date" class="form-control" />
+          </div>
+        </div>
+        <div class="row align-items-center my-2">
+          <div class="col-3 text-end">เลขชุด :</div>
+          <div class="col-9">
+            <input type="text" class="form-control" />
+          </div>
+        </div>
+        <div class="row align-items-center my-2">
+          <div class="col-3 text-end">เลขเอกสารสิทธิ์ :</div>
+          <div class="col-9">
+            <input type="text" class="form-control" />
+          </div>
+        </div>
+
+        <div class="text-center my-3">
+          <button class="btn btn--submit">บันทึก</button>
+          <button class="btn btn--cancel">ยกเลิก</button>
+        </div>
+      </div>
+
+      <div class="my-2">
+        <table class="table table-striped text-center">
+          <thead class="table--header">
+            <tr>
+              <th>ลำดับ</th>
+              <th>วันที่</th>
+              <th>เลขชุด</th>
+              <th>ผู้บันทึก</th>
+              <th>เลขเอกสารสิทธิ์</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>01</td>
+              <td>01/01/2022</td>
+              <td>00001</td>
+              <td>
+                <span>นายแบงอัพ โปรดักส์</span>
+              </td>
+              <td>
+                <span class="badge--success">คืนแล้ว</span>
+              </td>
+            </tr>
+            <tr>
+              <td>02</td>
+              <td>02/02/2022</td>
+              <td>00002</td>
+              <td>
+                <span>นายแบงอัพ โปรดักส์</span>
+              </td>
+              <td>
+                <span class="badge--unsuccess">ยังไม่ได้คืน</span>
+              </td>
+            </tr>
+            <tr>
+              <td>03</td>
+              <td>03/03/2022</td>
+              <td>00003</td>
+              <td>
+                <span>นายแบงอัพ โปรดักส์</span>
+              </td>
+              <td>
+                <span class="badge--success">คืนแล้ว</span>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div>
+        <nav aria-label="Page navigation example">
+          <div class="d-flex justify-content-between">
+            <span>แสดง 1 ถึง 10 จาก 30 รายการ</span>
+            <ul class="pagination">
+              <li class="page-item disabled">
+                <a class="page-link">ก่อนหน้า</a>
+              </li>
+              <li class="page-item active">
+                <a class="page-link" href="#">1</a>
+              </li>
+              <li class="page-item"><a class="page-link" href="#">2</a></li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+              <li class="page-item">
+                <a class="page-link" href="#">ถัดไป</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
