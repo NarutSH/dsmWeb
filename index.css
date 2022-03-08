@@ -1,6 +1,12 @@
 * {
   font-family: Prompt;
-  font-size: 18px;
+  font-size: 14px;
+}
+
+.header--tab {
+  background-color: #5082b7;
+  height: 50px;
+  color: white;
 }
 
 .title-header {
